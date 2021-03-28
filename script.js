@@ -6,7 +6,7 @@ let timerObj = {
 
 function soundAlarm() {
     let amount = 3;
-    let audio = new Audio("Timer_Sound_effect.mp3");
+    let audio = new Audio("https://soundcloud.com/akarsh-modi/timer-sound-effect");
 
     function playSound() {
         audio.pause();
